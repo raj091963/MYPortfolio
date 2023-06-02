@@ -1,0 +1,215 @@
+@media only screen and (max-width:926px){
+    .item {
+        padding: 12px;
+        flex: 0 0 45%;
+    }
+    .item a{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:625px){
+    .header{
+        padding:12px 12px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .name{
+        position: sticky;
+    }
+    .list{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 0;
+        width: 100%;
+        border-top:1px solid #812dff ;
+        background: #353535;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .list a{
+        display: flex;
+        margin:0%;
+        padding: 18px 0px;
+        flex: content;
+        justify-content: center;
+        border: none;
+        border-radius: 0px;
+    }
+    .list a:hover, a:active{
+        margin:0%;
+        background: #812dff;
+        border: none;
+    }
+    .list a:nth-child(1):hover{
+        border-top-left-radius: 20px;
+    }
+    .list a:nth-child(5):hover{
+        border-top-right-radius: 20px;
+    }
+
+
+    /* info */
+    .me{
+        padding: 1px;
+    }
+    .basic_info div{
+        padding:12px 12px;
+    }
+    .basic_info:nth-child(1){
+        padding: 0;
+    }
+    .basic_info:nth-child(1) img{
+        align-self: center;
+        min-width: 120px;
+    }
+    .intro div:nth-child(1), .intro div:nth-child(3){
+        font-size: 28px;
+        padding: 12px 0px 12px 0px;
+    }
+    .dev{
+        margin: 0;
+
+    }  
+
+    /* about */
+    .about div:nth-child(2){
+        font-size: 12px;
+    }
+
+    /* project */
+    #project{
+        margin: 13px ;
+    }
+    #project .pr{
+        margin-bottom: 0;
+    }
+    .raj{
+        margin: 12px 5px;
+        padding: 2px;
+    }
+    .item {
+        padding: 6px;
+        flex: 0 0 60%;
+    }
+    
+    .item p{
+        font-size:16px ;
+    }
+    .item a{
+        font-size: 12px;
+    }
+
+    /* skill */
+    #skill{
+        margin: 13px;
+    }
+
+    /* contact me */
+    #contact{
+        margin: 13px;
+    }
+
+    /* top */
+    .top{
+        visibility: hidden;
+    }
+
+    /* footer */
+    #footer{
+        visibility: hidden;
+    }
+
+    #contact >div:nth-child(2){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #contact ul li a{
+        justify-content: center;
+        margin-top: 12px;
+    }
+    #contact ul li a div{
+        font-size: 20px;
+    }
+
+    #contact >div:nth-child(2){
+        margin: 1px;
+    }
+    #contact ul li a{
+        padding-inline-start: 6px;
+        padding-inline-end: 25px;
+    }
+}
+
+@media only screen and (max-width:484px){
+    .intro div:nth-child(1),div:nth-child(3){
+        font-size: 20px;
+    }
+    .dev{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:387px){
+    .dev{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:335px){
+    .intro div:nth-child(1),.intro div:nth-child(3){
+        font-size: 15px;
+    }
+    .dev{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width:447px){
+    #project .pr{
+        padding-left: 20px;
+    }
+
+
+    #skill div{
+        padding-left: 20px;
+    }
+    #skill ul{
+        margin-inline-start: 20px;
+    }
+    #skill ul li{
+        width: 20%;
+    }
+    #skill ul li img{
+        width: 70%;
+    }
+
+    #contact div:nth-child(1){
+        padding-left: 20px;
+    }
+    #contact >div:nth-child(2){
+        margin-left: 2px;
+    }
+}
+@media only screen and (max-width:404px){
+    .item:nth-child(3) p,.item:nth-child(4) p,.item:nth-child(5) p{
+        padding-right: 120px;
+    }
+}
+@media only screen and (max-width:828px){
+    #contact ul{
+        padding-left: 1px;
+    }
+}
+@media only screen and (max-width:804px){
+    #contact ul li a div span:nth-child(2){
+        font-size: 12px;
+    }
+    #contact div >img{
+        height: max-content;
+    }
+}
+@media only screen and (max-width:695px){
+    #contact >div:nth-child(2){
+        margin-right: 2px;
+    }
+}
